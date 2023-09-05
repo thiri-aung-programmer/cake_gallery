@@ -1,0 +1,333 @@
+@font-face {
+    font-family: "font1";
+    src: url("../Fonts/archular-exo-lite.otf");
+}
+
+@font-face {
+    font-family: "font2";
+    src: url("../Fonts/Arnoia Display Italic.otf");
+}
+
+@font-face {
+    font-family: "font3";
+    src: url("../Fonts/BlackSparrow.otf");
+}
+
+@font-face {
+    font-family: "font4";
+    src: url("../Fonts/BRICK.TTF");
+}
+
+@font-face {
+    font-family: "font5";
+    src: url("../Fonts/BritishThroneDemoItalic.ttf");
+}
+
+@font-face {
+    font-family: "font6";
+    src: url("../Fonts/ChocoTruffleDemoRegular.ttf");
+}
+
+@font-face {
+    font-family: "font7";
+    src: url("../Fonts/DobkinScript.ttf");
+}
+
+@font-face {
+    font-family: "font8";
+    src: url("../Fonts/FancyPantsNF.otf");
+}
+
+@font-face {
+    font-family: "font9";
+    src: url("../Fonts/FlowerLeafDemoRegular.ttf");
+}
+
+@font-face {
+    font-family: "font10";
+    src: url("../Fonts/Freakshow.otf");
+}
+
+@font-face {
+    font-family: "font11";
+    src: url("../Fonts/Gathrima - Free Trial.ttf");
+}
+
+@font-face {
+    font-family: "font12";
+    src: url("../Fonts/Griphite_PERSONAL_USE.ttf");
+}
+
+@font-face {
+    font-family: "font13";
+    src: url("../Fonts/Harbell_Personal_Use.ttf");
+}
+
+@font-face {
+    font-family: "font14";
+    src: url("../Fonts/Kejaxitrial.otf");
+}
+
+@font-face {
+    font-family: "font15";
+    src: url("../Fonts/KEXINUtrial.ttf");
+}
+
+@font-face {
+    font-family: "font16";
+    src: url("../Fonts/Kinder Minders - Free Trial.ttf");
+}
+
+@font-face {
+    font-family: "font17";
+    src: url("../Fonts/Kuximen-Heavy.ttf");
+}
+
+@font-face {
+    font-family: "font18";
+    src: url("../Fonts/Loveline Glamour.ttf");
+}
+
+@font-face {
+    font-family: "font19";
+    src: url("../Fonts/Moomilk-Regular.ttf");
+}
+
+@font-face {
+    font-family: "font20";
+    src: url("../Fonts/Mother Tongue.otf");
+}
+
+@font-face {
+    font-family: "font21";
+    src: url("../Fonts/OldFolksShuffle.ttf");
+}
+
+@font-face {
+    font-family: "font22";
+    src: url("../Fonts/OutOfAfrica.ttf");
+}
+
+@font-face {
+    font-family: "font23";
+    src: url("../Fonts/Snowby.ttf");
+}
+
+@font-face {
+    font-family: "font24";
+    src: url("../Fonts/Where is my coffee cup.ttf");
+}
+
+body {
+    background-color: rgb(216, 234, 166);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.headergp {
+    width: 97.32%;
+    padding: 0 1%;
+    height: 220px;
+    border: 6px groove palevioletred;
+    background: linear-gradient(to left, rgb(167, 234, 91), rgb(161, 29, 161), orange, rgb(52, 84, 245));
+    background-size: 200% 100%;
+    animation: chgColor2 1.5s linear infinite alternate-reverse;
+}
+
+@keyframes chgColor2 {
+    from {
+        background-position: left;
+    }
+    to {
+        background-position: right;
+    }
+}
+
+.headergp img {
+    display: inline-flex;
+    width: 10%;
+    height: 190px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 11.7rem;
+    letter-spacing: 0.5px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 30px;
+    margin-right: 15px;
+    font-weight: bold;
+    /*text-shadow: 2px 4px 8px rgb(129, 58, 58);*/
+    font-family: 'font14';
+}
+
+.linearbg1 {
+    display: inline-block;
+    height: 12rem;
+    border: 2px solid groove;
+    /*  background-image: radial-gradient(springgreen, red, gold);*/
+}
+
+.linear1 {
+    border: 2px solid groove;
+    background: linear-gradient(to top, rgb(161, 124, 242) 10%, rgb(210, 14, 168) 12% 20%, black, rgb(12, 8, 249));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(247, 244, 244);
+}
+
+#prev {
+    font-size: 2.5rem;
+    display: inline-block;
+    width: 5%;
+    align-items: center;
+    justify-content: right;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#searchgp {
+    width: 100%;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    margin-top: 8.6rem;
+    background-color: rgb(175, 175, 246);
+    position: fixed;
+    top: 85px;
+}
+
+#searchgp div {
+    display: inline-flex;
+    margin-right: 10px;
+    height: 3.2rem;
+}
+
+#searchgp h3 {
+    margin-left: 300px;
+    margin-right: 20px;
+    font-size: 1.7rem;
+    color: darkblue;
+}
+
+#searchgp i {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(138, 20, 20);
+}
+
+#contactgp {
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#title {
+    font-size: 5rem;
+    text-align: center;
+    padding: 1rem;
+    color: darkblue;
+    font-weight: bold;
+    border-bottom: 10px solid darkblue;
+    border-top: 10px solid darkblue;
+    display: inline-block;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#ans {
+    margin: auto 15%;
+    width: 72%;
+}
+
+#ans h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 5.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    border: none;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.itemimg {
+    width: 70%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+td,
+th {
+    text-align: center;
+    border: 2px solid black;
+    padding: 0.5rem;
+}
+
+.delete {
+    color: red;
+    font-size: 2.5rem;
+    background-color: transparent;
+    border: none;
+}
+
+.delete :hover {
+    color: rgb(77, 4, 4);
+}
+
+td {
+    font-size: 1.3rem;
+    color: blue;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: blanchedalmond;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(248, 207, 146);
+}
+
+th {
+    font-size: 1.8rem;
+    color: darkblue;
+    height: 3rem;
+    background-color: rgb(235, 159, 17);
+}
+
+.continue {
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    width: 80%;
+    background-color: rgb(187, 238, 48);
+    color: black;
+}
+
+.continue:hover {
+    background-color: rgb(243, 178, 178);
+}

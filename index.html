@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Gallery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/regular.min.css" integrity="sha512-k2UAKyvfA7Xd/6FrOv5SG4Qr9h4p2oaeshXF99WO3zIpCsgTJ3YZELDK0gHdlJE5ls+Mbd5HL50b458z3meB/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="app.js">
+    </script>
+</head>
+
+<body onload="firstshow();">
+    <div class="headergp">
+        <img src="clogo.png" alt="">
+        <div class="linearbg1">
+            <h1 class="linear1">The Cake Gallery</h1>
+        </div>
+        <img src="rlogo.png" alt="">
+    </div>
+    <div class="linkgp">
+        <a href="#" class="c1">Home</a>
+        <a href="#" class="c2">Photos</a>
+        <a href="#" class="c1">Category</a>
+        <a href="#" class="c2">Order Info</a>
+        <a href="#" class="c1">Ready2GoBakery</a>
+        <a href="#" class="c2">OtherProducts</a>
+        <a href="#" class="c1">Contact Us</a>
+        <a href="confirm.html" class="c3" id="shopgp"><i class="bi bi-cart-plus-fill"></i><label id="count" for="" class="hide">0</label><i class="bi bi-arrow-right-circle-fill"></i></a>
+    </div>
+    <div class="imggp">
+        <div class="leftshift"><i class="bi bi-caret-left-fill" onclick="left();" id="lbtn"></i></div>
+        <div class="text">
+            <h2 id="cname">Chocolate Topping</h2>
+            <h4 id="code">A1-2045</h4>
+            <h4 id="price">25000 Ks</h4>
+            <a href="#" onclick="showmodal(this);" id="1">More Detail</a>
+            <button id="btn" onclick="addtocart();" onmouseout="stopani();"><label>Add To Cart</label><i class="bi bi-cart-plus-fill"></i></button>
+        </div>
+        <div class="imgdiv"><img src="c1.png" alt="" id="photo"></div>
+        <div class="rightshift"><i class="bi bi-caret-right-fill" onclick="right();" id="rbtn"></i></div>
+    </div>
+
+    <div class="modalcontainer" id="modalcontainer">
+        <div class="modal" id="modal">
+            <img src="" alt="">
+            <!--  ဒါက modal ရဲ့ child(0) -->
+            <i class="bi bi-x-square-fill" id="closebtn" onclick="hideModal();"></i>
+            <!--  //ဒါက modal ရဲ့ child(1) -->
+            <div class="text"></div>
+            <!--  ဒါက modal ရဲ့ child(2) -->
+
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>

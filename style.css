@@ -1,0 +1,444 @@
+@font-face {
+    font-family: "font1";
+    src: url("../Fonts/archular-exo-lite.otf");
+}
+
+@font-face {
+    font-family: "font2";
+    src: url("../Fonts/Arnoia Display Italic.otf");
+}
+
+@font-face {
+    font-family: "font3";
+    src: url("../Fonts/BlackSparrow.otf");
+}
+
+@font-face {
+    font-family: "font4";
+    src: url("../Fonts/BRICK.TTF");
+}
+
+@font-face {
+    font-family: "font5";
+    src: url("../Fonts/BritishThroneDemoItalic.ttf");
+}
+
+@font-face {
+    font-family: "font6";
+    src: url("../Fonts/ChocoTruffleDemoRegular.ttf");
+}
+
+@font-face {
+    font-family: "font7";
+    src: url("../Fonts/DobkinScript.ttf");
+}
+
+@font-face {
+    font-family: "font8";
+    src: url("../Fonts/FancyPantsNF.otf");
+}
+
+@font-face {
+    font-family: "font9";
+    src: url("../Fonts/FlowerLeafDemoRegular.ttf");
+}
+
+@font-face {
+    font-family: "font10";
+    src: url("../Fonts/Freakshow.otf");
+}
+
+@font-face {
+    font-family: "font11";
+    src: url("../Fonts/Gathrima - Free Trial.ttf");
+}
+
+@font-face {
+    font-family: "font12";
+    src: url("../Fonts/Griphite_PERSONAL_USE.ttf");
+}
+
+@font-face {
+    font-family: "font13";
+    src: url("../Fonts/Harbell_Personal_Use.ttf");
+}
+
+@font-face {
+    font-family: "font14";
+    src: url("../Fonts/Kejaxitrial.otf");
+}
+
+@font-face {
+    font-family: "font15";
+    src: url("../Fonts/KEXINUtrial.ttf");
+}
+
+@font-face {
+    font-family: "font16";
+    src: url("../Fonts/Kinder Minders - Free Trial.ttf");
+}
+
+@font-face {
+    font-family: "font17";
+    src: url("../Fonts/Kuximen-Heavy.ttf");
+}
+
+@font-face {
+    font-family: "font18";
+    src: url("../Fonts/Loveline Glamour.ttf");
+}
+
+@font-face {
+    font-family: "font19";
+    src: url("../Fonts/Moomilk-Regular.ttf");
+}
+
+@font-face {
+    font-family: "font20";
+    src: url("../Fonts/Mother Tongue.otf");
+}
+
+@font-face {
+    font-family: "font21";
+    src: url("../Fonts/OldFolksShuffle.ttf");
+}
+
+@font-face {
+    font-family: "font22";
+    src: url("../Fonts/OutOfAfrica.ttf");
+}
+
+@font-face {
+    font-family: "font23";
+    src: url("../Fonts/Snowby.ttf");
+}
+
+@font-face {
+    font-family: "font24";
+    src: url("../Fonts/Where is my coffee cup.ttf");
+}
+
+body {
+    background-color: rgb(216, 234, 166);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.headergp {
+    width: 97.32%;
+    padding: 0 1%;
+    height: 220px;
+    border: 6px groove palevioletred;
+    background: linear-gradient(to left, rgb(167, 234, 91), rgb(161, 29, 161), orange, rgb(52, 84, 245));
+    background-size: 200% 100%;
+    animation: chgColor2 1.5s linear infinite alternate-reverse;
+}
+
+@keyframes chgColor2 {
+    from {
+        background-position: left;
+    }
+    to {
+        background-position: right;
+    }
+}
+
+.headergp img {
+    display: inline-flex;
+    width: 10%;
+    height: 190px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 11.7rem;
+    letter-spacing: 0.5px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 30px;
+    margin-right: 15px;
+    font-weight: bold;
+    /*text-shadow: 2px 4px 8px rgb(129, 58, 58);*/
+    font-family: 'font14';
+}
+
+.linearbg1 {
+    display: inline-block;
+    height: 12rem;
+    border: 2px solid groove;
+    /*  background-image: radial-gradient(springgreen, red, gold);*/
+}
+
+.linear1 {
+    border: 2px solid groove;
+    background: linear-gradient(to top, rgb(161, 124, 242) 10%, rgb(210, 14, 168) 12% 20%, black, rgb(12, 8, 249));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(247, 244, 244);
+}
+
+.linkgp {
+    width: 99.25%;
+    padding: 0px 6px;
+    height: 6rem;
+    display: inline-flex;
+    align-items: center;
+    margin-top: none;
+    background: rgb(106, 1, 106);
+    border: 2px groove rgb(171, 79, 171);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.linkgp a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 17%;
+    font-family: 'font12';
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    /* background-size: 200% 100%; */
+}
+
+.c1 {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    background: linear-gradient( to bottom right, rgb(231, 72, 98), rgb(247, 236, 236), purple);
+    /* background: linear-gradient( to right, rgb(231, 72, 98), rgb(247, 236, 236), purple);
+  animation: chgColor1 1s infinite linear alternate-reverse; */
+}
+
+@keyframes chgColor1 {
+    from {
+        background-position: right;
+    }
+    to {
+        background-position: left;
+    }
+}
+
+.c2 {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    background: linear-gradient( to top right, purple, rgb(247, 236, 236), rgb(231, 72, 98));
+    /*  background: linear-gradient( to right, purple, rgb(247, 236, 236), rgb(231, 72, 98));
+    animation: chgColor1 1s infinite linear alternate-reverse;*/
+}
+
+.linkgp a:hover {
+    color: white;
+    text-shadow: -4px -5px 5px rgb(0, 0, 0);
+    background: rgb(127, 6, 101);
+}
+
+.c3 {
+    height: 76px;
+    background: linear-gradient( to top right, purple, rgb(247, 236, 236), rgb(231, 72, 98));
+    /*  background: linear-gradient( to right, purple, rgb(247, 236, 236), rgb(231, 72, 98));
+    animation: chgColor1 1s infinite linear alternate-reverse;*/
+}
+
+#shopgp i {
+    font-size: 2.7rem;
+    padding: 8rem 0.5rem;
+}
+
+#shopgp label {
+    font-size: 2rem;
+    padding: 8rem 0.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+
+.imggp {
+    display: inline-flex;
+    width: 100%;
+    height: 610px;
+    background: linear-gradient(to right top, rgb(250, 255, 164) 40%, rgb(154, 154, 251) 50%);
+    align-items: center;
+    justify-content: center;
+}
+
+.leftshift {
+    width: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+#lbtn {
+    font-size: 5rem;
+    color: rgb(65, 14, 65);
+}
+
+#rbtn {
+    font-size: 5rem;
+    color: rgb(65, 14, 65);
+}
+
+.rightshift {
+    width: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+.text h2 {
+    font-size: 3.5rem;
+    font-family: 'font12';
+    color: darkblue;
+    text-shadow: -6px -7px 7px rgb(250, 247, 247);
+    font-weight: bold;
+    margin: 0px 50px;
+}
+
+.text h4 {
+    font-size: 4.5rem;
+    font-family: 'font8';
+    text-shadow: -4px -5px 5px rgb(126, 125, 125);
+    color: rgb(173, 36, 73);
+    font-weight: bold;
+    margin: 40px 50px;
+}
+
+.text a {
+    text-decoration: none;
+    margin-left: 15%;
+    font-weight: bold;
+    color: rgb(251, 250, 248);
+    text-shadow: 4px 3px 2px rgb(27, 4, 58);
+    font-size: 2.5rem;
+}
+
+.text a:hover {
+    color: brown;
+}
+
+.text button {
+    background-color: rgb(80, 2, 81);
+    background-size: 100% 200%;
+    color: rgb(231, 241, 246);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(26, 26, 34, 0.2) 0px 7px 29px 0px;
+    margin-left: 350px;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.text button i {
+    text-shadow: 2px 3px 2px black;
+    font-size: 3rem;
+}
+
+.text button label {
+    align-items: center;
+    text-align: center;
+    margin: auto 0.2rem;
+    font-weight: bold;
+}
+
+.text button:hover {
+    background-color: rgb(247, 249, 249);
+    color: rgb(80, 2, 81);
+}
+
+.btnani {
+    animation: chgColor 1s 1 alternate-reverse;
+}
+
+@keyframes chgColor {
+    from {
+        background-image: linear-gradient(rgb(80, 2, 81), white, rgb(80, 2, 81));
+        background-position: top;
+    }
+    to {
+        background-image: linear-gradient( rgb(80, 2, 81), white, rgb(80, 2, 81));
+        background-position: bottom;
+    }
+}
+
+.imgdiv {
+    width: 50%;
+}
+
+.imgdiv img {
+    width: 90%;
+}
+
+.modalcontainer {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    /* background-color: transparent; */
+    /* display: flex; ခဏမြင်ရအောင် flex ထားတာစrunချိန်မှာ မပေါ်ချင်ဘူး ဒါကြောင့် */
+    display: none;
+    /* display: flex; */
+}
+
+.modal {
+    background-image: radial-gradient(rgb(59, 17, 174), darkgoldenrod, rgb(240, 150, 150), rgb(157, 23, 117), blue);
+    width: 500px;
+    min-height: 350px;
+    margin: auto;
+    text-align: center;
+    border: 5px groove rgb(250, 213, 219);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+    position: relative;
+    padding: 1rem 0rem;
+}
+
+
+/*         
+#modal {
+    position: fixed;
+    /* top: 50%; */
+
+
+/* }*/
+
+*/ .modal img {
+    width: 25%;
+    margin: 2rem 0rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.modal .text {
+    text-align: justify;
+    width: 90%;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    color: rgb(254, 254, 255);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+#closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.7rem;
+    color: rgb(213, 238, 244);
+}
